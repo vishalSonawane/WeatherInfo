@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077E944FB9D612B2B290A73846C17E84 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31618214FBC016EA0F47337BD8E0A0CD /* Util.swift */; };
+		10D74F53C3E11A68E6B7789BC4FEAB65 /* ValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B948B54761DCB1CBA09B5712EEDF1690 /* ValueAnimation.swift */; };
+		12DF68C681805FFF96223C098F2CEC6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BDECE4909545D5830BBD9827F8ACEF /* Foundation.framework */; };
+		1DD791ADE9014AB004EDEB358DA1555F /* EdgePanTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773F3454805504A44ECDF09C52397 /* EdgePanTransition.swift */; };
+		271AEA93CBD322CD1626CE21282D6B42 /* MotionAnimationPropertyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84C9D348874592F95F176617F67A4F /* MotionAnimationPropertyState.swift */; };
+		2FC7A5383336D207039B3E0AE474873A /* ElasticModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C795CC80C5A4E6439E7E628751969761 /* ElasticModalViewController.swift */; };
+		33A4CDB4B4D9949A0C093C54095FE310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BDECE4909545D5830BBD9827F8ACEF /* Foundation.framework */; };
+		4FC82611A0144E2D0DDA3D0BCFBEFC6C /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282C0C221C07E1B1800F6C28A6DE200 /* SwiftLoader.swift */; };
+		5382F24B2D81DB14F69D254658A023A8 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2031FC16079CC80A8475240AEF07E3 /* MotionAnimation.swift */; };
+		61C2FE776964CD50A131A306E69C3D89 /* MotionAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B6E3881C9E48A95079B2958F03070F4 /* MotionAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655C49683C596DC821C03C13A3D6C753 /* MotionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */; };
+		65EE74DE805D6C0E12464003F3FAD7D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BDECE4909545D5830BBD9827F8ACEF /* Foundation.framework */; };
+		67146E33E5A56A84AB35D40BABC25218 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993FC950E66FF60B510C412131742C32 /* UIKit.framework */; };
+		7B2647023C6CAF4074359BE214B2C138 /* SwiftLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE610FB5924F7B4345F025342AB00F /* SwiftLoader-dummy.m */; };
+		7D0191ACF8660DFEDA3E27F08C6F19B6 /* SpringValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26728876DEE6B03FE3FBA432C98E1F /* SpringValueAnimation.swift */; };
+		7E8C83B4BC0CE57960C68BFAE9D2B01C /* Pods-WeatherInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 527404032B5FD1BBDF19ABFF529306B5 /* Pods-WeatherInfo-dummy.m */; };
+		82476DDC66831593B02A46490940C20B /* NSObject+MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1148FDEDBFE2C9B335337EA6A0BD23B /* NSObject+MotionAnimation.swift */; };
+		88035705FB30FB471E5853E94A1CDD76 /* MotionAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC359305C9FEE46C676A6E0B6ADE33D /* MotionAnimation-dummy.m */; };
+		8F831F3741D1CFA56C6635E383097033 /* ElasticTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 900718CDBDCBC2C60CDDA1B646FE9C09 /* ElasticTransition-dummy.m */; };
+		B9F7B12441A92D57E4C0CB6DFF721409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993FC950E66FF60B510C412131742C32 /* UIKit.framework */; };
+		BA1A1C247FFB952DAB406BA026715BE1 /* ElasticTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD4B51F1BFBD718F7F3B923CBE2DD /* ElasticTransition.swift */; };
+		CFBB279B20AE4756B4D1BD6E2F5A8F37 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0346A7A724EEEFF3C4C001998A5DF /* Types.swift */; };
+		D564BDABF9CA32F6299B8C280C6A5918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993FC950E66FF60B510C412131742C32 /* UIKit.framework */; };
+		DB5E506564C6DA91DED626021F074904 /* ElasticTransitionPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FB61ED2D01E87A9C39288F19D9A22 /* ElasticTransitionPresentationController.swift */; };
+		DDB402D33C7E832B5AA2F99A95AB8B66 /* ElasticTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AE6880F5247402A634245642A7A375 /* ElasticTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F6FA86779A37D6B48B9F9BA5FF2F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BDECE4909545D5830BBD9827F8ACEF /* Foundation.framework */; };
+		F1A105BFEFF3FC4E1105A08BA7852727 /* ElasticShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E648A59C5F3CD1645BB59EB96A6F92F /* ElasticShapeLayer.swift */; };
+		F578BFA4E0134052ECAF1A4A44F2B098 /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AF55F376D52BA6A2964E509E487058 /* MotionAnimator.swift */; };
+		F889984DC5D56524275A30189F1B0E77 /* Pods-WeatherInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85AF2BB8113D3DF9EC90C7AAF8EA8D18 /* Pods-WeatherInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA140F3DA79E8C21F904E8C768365E8A /* SwiftLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F6FA822087A217CE07AEFB5E2BF25C /* SwiftLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CA273CCF1823AC6C1116103E8BE2880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5264177E0F0611895CABBD7D119E00;
+			remoteInfo = MotionAnimation;
+		};
+		3AC1F9285C5681C35EE6A2C3E9DEED66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5264177E0F0611895CABBD7D119E00;
+			remoteInfo = MotionAnimation;
+		};
+		C0757BD7EB4F5FE6F514EEA2C4FB1A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A383896C09244457C6D099172C9246;
+			remoteInfo = SwiftLoader;
+		};
+		CD6CB029C99504BB5EDDDD68BF89A6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7031ED9D7E985343BFF4CFFEA25D2EB0;
+			remoteInfo = ElasticTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B962823BE955D0A69CA66ED4313543 /* Pods-WeatherInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WeatherInfo.modulemap"; sourceTree = "<group>"; };
+		041D474A540A5BAAC66B71F5876F1A70 /* Pods_WeatherInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B0F87E34F47248AD686EC4FE582B64 /* SwiftLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLoader-prefix.pch"; sourceTree = "<group>"; };
+		0A31EB3A54B78FB5E427A5E0B47FA8C2 /* ElasticTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ElasticTransition.xcconfig; sourceTree = "<group>"; };
+		0BC359305C9FEE46C676A6E0B6ADE33D /* MotionAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotionAnimation-dummy.m"; sourceTree = "<group>"; };
+		0F1A620CD10A581CAD0A9DD838466AA3 /* SwiftLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31618214FBC016EA0F47337BD8E0A0CD /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ElasticTransition/Util.swift; sourceTree = "<group>"; };
+		329C04A10506322E4847E7B4EB99FC4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AE6880F5247402A634245642A7A375 /* ElasticTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-umbrella.h"; sourceTree = "<group>"; };
+		3E648A59C5F3CD1645BB59EB96A6F92F /* ElasticShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticShapeLayer.swift; path = ElasticTransition/ElasticShapeLayer.swift; sourceTree = "<group>"; };
+		417C64335F0AF20955A837B5F4AAF74E /* MotionAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionAnimation.xcconfig; sourceTree = "<group>"; };
+		527404032B5FD1BBDF19ABFF529306B5 /* Pods-WeatherInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherInfo-dummy.m"; sourceTree = "<group>"; };
+		59CE610FB5924F7B4345F025342AB00F /* SwiftLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLoader-dummy.m"; sourceTree = "<group>"; };
+		5F9AD4B51F1BFBD718F7F3B923CBE2DD /* ElasticTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticTransition.swift; path = ElasticTransition/ElasticTransition.swift; sourceTree = "<group>"; };
+		61526E4464F3E89C693139FA2B9DD446 /* Pods-WeatherInfo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherInfo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6325ACD039FF49C7E3E821CC32A157CA /* MotionAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-prefix.pch"; sourceTree = "<group>"; };
+		6407E16DE4EA9CB2F681141D629EB800 /* Pods-WeatherInfo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherInfo-resources.sh"; sourceTree = "<group>"; };
+		657EEC633575C550012F9E7C5C1D8790 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AF55F376D52BA6A2964E509E487058 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = MotionAnimation/MotionAnimator.swift; sourceTree = "<group>"; };
+		728CDD65BFF89324B4ADE4AAEEDA7283 /* ElasticTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-prefix.pch"; sourceTree = "<group>"; };
+		741ABF43D4C802AAB57B44B211C69DC6 /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B0346A7A724EEEFF3C4C001998A5DF /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = MotionAnimation/Types.swift; sourceTree = "<group>"; };
+		7B6E3881C9E48A95079B2958F03070F4 /* MotionAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-umbrella.h"; sourceTree = "<group>"; };
+		7E1C5AB6542F9A3F8002961D05533FD5 /* SwiftLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLoader.xcconfig; sourceTree = "<group>"; };
+		85AF2BB8113D3DF9EC90C7AAF8EA8D18 /* Pods-WeatherInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherInfo-umbrella.h"; sourceTree = "<group>"; };
+		86BDECE4909545D5830BBD9827F8ACEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A26728876DEE6B03FE3FBA432C98E1F /* SpringValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringValueAnimation.swift; path = MotionAnimation/SpringValueAnimation.swift; sourceTree = "<group>"; };
+		900718CDBDCBC2C60CDDA1B646FE9C09 /* ElasticTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ElasticTransition-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		993FC950E66FF60B510C412131742C32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D1BE55E6986203526D441B7E9744DAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47DED1417A51BE7BD8D7A64A00C6B3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A504D9D04DA34C3AA2DB1488930E2135 /* SwiftLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftLoader.modulemap; sourceTree = "<group>"; };
+		ABD5F8371020CCBC37EE3BEAEFEC9307 /* Pods-WeatherInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF2031FC16079CC80A8475240AEF07E3 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = MotionAnimation/MotionAnimation.swift; sourceTree = "<group>"; };
+		B2151A0BF32FBD62D57ECA9F9718CE0A /* Pods-WeatherInfo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherInfo-frameworks.sh"; sourceTree = "<group>"; };
+		B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B948B54761DCB1CBA09B5712EEDF1690 /* ValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueAnimation.swift; path = MotionAnimation/ValueAnimation.swift; sourceTree = "<group>"; };
+		BDEA415C0F202F5CEC0B2C10303E4569 /* ElasticTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ElasticTransition.modulemap; sourceTree = "<group>"; };
+		C282C0C221C07E1B1800F6C28A6DE200 /* SwiftLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftLoader.swift; path = src/SwiftLoader/SwiftLoader.swift; sourceTree = "<group>"; };
+		C2F6FA822087A217CE07AEFB5E2BF25C /* SwiftLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLoader-umbrella.h"; sourceTree = "<group>"; };
+		C70C888BE04FB9559DEFA79194F31FB2 /* MotionAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MotionAnimation.modulemap; sourceTree = "<group>"; };
+		C795CC80C5A4E6439E7E628751969761 /* ElasticModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticModalViewController.swift; path = ElasticTransition/ElasticModalViewController.swift; sourceTree = "<group>"; };
+		C8DB834E5F7606EC17439C8DE2DFAEC9 /* ElasticTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElasticTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FBF487B17A442075C0D4F05B84962A /* Pods-WeatherInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherInfo.release.xcconfig"; sourceTree = "<group>"; };
+		DD1773F3454805504A44ECDF09C52397 /* EdgePanTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgePanTransition.swift; path = ElasticTransition/EdgePanTransition.swift; sourceTree = "<group>"; };
+		E1148FDEDBFE2C9B335337EA6A0BD23B /* NSObject+MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+MotionAnimation.swift"; path = "MotionAnimation/NSObject+MotionAnimation.swift"; sourceTree = "<group>"; };
+		E1E3B75A7BDC44DE4EF52A4C8E88228B /* Pods-WeatherInfo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherInfo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED84C9D348874592F95F176617F67A4F /* MotionAnimationPropertyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationPropertyState.swift; path = MotionAnimation/MotionAnimationPropertyState.swift; sourceTree = "<group>"; };
+		FB6FB61ED2D01E87A9C39288F19D9A22 /* ElasticTransitionPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticTransitionPresentationController.swift; path = ElasticTransition/ElasticTransitionPresentationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84954CE654885ED9F50A2F7493ECD775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F6FA86779A37D6B48B9F9BA5FF2F09 /* Foundation.framework in Frameworks */,
+				655C49683C596DC821C03C13A3D6C753 /* MotionAnimation.framework in Frameworks */,
+				B9F7B12441A92D57E4C0CB6DFF721409 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89E989A645C6EB9E9C90AF0681D9D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A4CDB4B4D9949A0C093C54095FE310 /* Foundation.framework in Frameworks */,
+				67146E33E5A56A84AB35D40BABC25218 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63B110D425D79F1F712FA85B96EE4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE74DE805D6C0E12464003F3FAD7D9 /* Foundation.framework in Frameworks */,
+				D564BDABF9CA32F6299B8C280C6A5918 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AD107A7F8035BCD7ABE4EB29712783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DF68C681805FFF96223C098F2CEC6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5AFC68AB79740A43BB991C3B381DF7 /* MotionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AF2031FC16079CC80A8475240AEF07E3 /* MotionAnimation.swift */,
+				ED84C9D348874592F95F176617F67A4F /* MotionAnimationPropertyState.swift */,
+				71AF55F376D52BA6A2964E509E487058 /* MotionAnimator.swift */,
+				E1148FDEDBFE2C9B335337EA6A0BD23B /* NSObject+MotionAnimation.swift */,
+				8A26728876DEE6B03FE3FBA432C98E1F /* SpringValueAnimation.swift */,
+				76B0346A7A724EEEFF3C4C001998A5DF /* Types.swift */,
+				B948B54761DCB1CBA09B5712EEDF1690 /* ValueAnimation.swift */,
+				D795C9F05773594537FEEA98DD21F0BE /* Support Files */,
+			);
+			path = MotionAnimation;
+			sourceTree = "<group>";
+		};
+		6ECB20CBCA90E38AFBADB5D986696A98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA415C0F202F5CEC0B2C10303E4569 /* ElasticTransition.modulemap */,
+				0A31EB3A54B78FB5E427A5E0B47FA8C2 /* ElasticTransition.xcconfig */,
+				900718CDBDCBC2C60CDDA1B646FE9C09 /* ElasticTransition-dummy.m */,
+				728CDD65BFF89324B4ADE4AAEEDA7283 /* ElasticTransition-prefix.pch */,
+				32AE6880F5247402A634245642A7A375 /* ElasticTransition-umbrella.h */,
+				657EEC633575C550012F9E7C5C1D8790 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ElasticTransition";
+			sourceTree = "<group>";
+		};
+		71440BF7BB673E0507DDB174E4A215AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47DED1417A51BE7BD8D7A64A00C6B3E /* Info.plist */,
+				A504D9D04DA34C3AA2DB1488930E2135 /* SwiftLoader.modulemap */,
+				7E1C5AB6542F9A3F8002961D05533FD5 /* SwiftLoader.xcconfig */,
+				59CE610FB5924F7B4345F025342AB00F /* SwiftLoader-dummy.m */,
+				09B0F87E34F47248AD686EC4FE582B64 /* SwiftLoader-prefix.pch */,
+				C2F6FA822087A217CE07AEFB5E2BF25C /* SwiftLoader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLoader";
+			sourceTree = "<group>";
+		};
+		79FAC6919D537E7F35D1A7F85F4C7F20 /* ElasticTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DD1773F3454805504A44ECDF09C52397 /* EdgePanTransition.swift */,
+				C795CC80C5A4E6439E7E628751969761 /* ElasticModalViewController.swift */,
+				3E648A59C5F3CD1645BB59EB96A6F92F /* ElasticShapeLayer.swift */,
+				5F9AD4B51F1BFBD718F7F3B923CBE2DD /* ElasticTransition.swift */,
+				FB6FB61ED2D01E87A9C39288F19D9A22 /* ElasticTransitionPresentationController.swift */,
+				31618214FBC016EA0F47337BD8E0A0CD /* Util.swift */,
+				6ECB20CBCA90E38AFBADB5D986696A98 /* Support Files */,
+			);
+			path = ElasticTransition;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CB7AE1D83928E889E062A217743ABE6E /* Frameworks */,
+				816DB054F7976A5F6F310E61AF3F24B0 /* Pods */,
+				A9770F820D331E33EF83C994D72BA8FA /* Products */,
+				8ED2416B3D24A6C9FECAAA0A6D2BCF7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		816DB054F7976A5F6F310E61AF3F24B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79FAC6919D537E7F35D1A7F85F4C7F20 /* ElasticTransition */,
+				1F5AFC68AB79740A43BB991C3B381DF7 /* MotionAnimation */,
+				A5C033D01CEA7C72644B5132236753EE /* SwiftLoader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ED2416B3D24A6C9FECAAA0A6D2BCF7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FC542B9089155E457220BC932502779 /* Pods-WeatherInfo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FC542B9089155E457220BC932502779 /* Pods-WeatherInfo */ = {
+			isa = PBXGroup;
+			children = (
+				329C04A10506322E4847E7B4EB99FC4D /* Info.plist */,
+				03B962823BE955D0A69CA66ED4313543 /* Pods-WeatherInfo.modulemap */,
+				E1E3B75A7BDC44DE4EF52A4C8E88228B /* Pods-WeatherInfo-acknowledgements.markdown */,
+				61526E4464F3E89C693139FA2B9DD446 /* Pods-WeatherInfo-acknowledgements.plist */,
+				527404032B5FD1BBDF19ABFF529306B5 /* Pods-WeatherInfo-dummy.m */,
+				B2151A0BF32FBD62D57ECA9F9718CE0A /* Pods-WeatherInfo-frameworks.sh */,
+				6407E16DE4EA9CB2F681141D629EB800 /* Pods-WeatherInfo-resources.sh */,
+				85AF2BB8113D3DF9EC90C7AAF8EA8D18 /* Pods-WeatherInfo-umbrella.h */,
+				ABD5F8371020CCBC37EE3BEAEFEC9307 /* Pods-WeatherInfo.debug.xcconfig */,
+				D1FBF487B17A442075C0D4F05B84962A /* Pods-WeatherInfo.release.xcconfig */,
+			);
+			name = "Pods-WeatherInfo";
+			path = "Target Support Files/Pods-WeatherInfo";
+			sourceTree = "<group>";
+		};
+		A5C033D01CEA7C72644B5132236753EE /* SwiftLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C282C0C221C07E1B1800F6C28A6DE200 /* SwiftLoader.swift */,
+				71440BF7BB673E0507DDB174E4A215AF /* Support Files */,
+			);
+			path = SwiftLoader;
+			sourceTree = "<group>";
+		};
+		A9770F820D331E33EF83C994D72BA8FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8DB834E5F7606EC17439C8DE2DFAEC9 /* ElasticTransition.framework */,
+				741ABF43D4C802AAB57B44B211C69DC6 /* MotionAnimation.framework */,
+				041D474A540A5BAAC66B71F5876F1A70 /* Pods_WeatherInfo.framework */,
+				0F1A620CD10A581CAD0A9DD838466AA3 /* SwiftLoader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7AE1D83928E889E062A217743ABE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */,
+				F42D5A737AD37AAAB3BD875922A3F6CB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D795C9F05773594537FEEA98DD21F0BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1BE55E6986203526D441B7E9744DAB /* Info.plist */,
+				C70C888BE04FB9559DEFA79194F31FB2 /* MotionAnimation.modulemap */,
+				417C64335F0AF20955A837B5F4AAF74E /* MotionAnimation.xcconfig */,
+				0BC359305C9FEE46C676A6E0B6ADE33D /* MotionAnimation-dummy.m */,
+				6325ACD039FF49C7E3E821CC32A157CA /* MotionAnimation-prefix.pch */,
+				7B6E3881C9E48A95079B2958F03070F4 /* MotionAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MotionAnimation";
+			sourceTree = "<group>";
+		};
+		F42D5A737AD37AAAB3BD875922A3F6CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				86BDECE4909545D5830BBD9827F8ACEF /* Foundation.framework */,
+				993FC950E66FF60B510C412131742C32 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C1737424545C6DFE128B48CC97D1677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2FE776964CD50A131A306E69C3D89 /* MotionAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58BC9A1798F8284B6082CD61B19E7D55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB402D33C7E832B5AA2F99A95AB8B66 /* ElasticTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA4987E3F2325F965C057996C902D46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F889984DC5D56524275A30189F1B0E77 /* Pods-WeatherInfo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F71220143143B0958B10F638211825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA140F3DA79E8C21F904E8C768365E8A /* SwiftLoader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D5264177E0F0611895CABBD7D119E00 /* MotionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D52F8639EF2ABC6503E79517391AA4 /* Build configuration list for PBXNativeTarget "MotionAnimation" */;
+			buildPhases = (
+				1AB73203F56FD81D457ADE8CB9FCB6F8 /* Sources */,
+				C63B110D425D79F1F712FA85B96EE4B4 /* Frameworks */,
+				3C1737424545C6DFE128B48CC97D1677 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionAnimation;
+			productName = MotionAnimation;
+			productReference = 741ABF43D4C802AAB57B44B211C69DC6 /* MotionAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62A383896C09244457C6D099172C9246 /* SwiftLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F15E5C0A58B8D084D0235F6C1B3FBDE /* Build configuration list for PBXNativeTarget "SwiftLoader" */;
+			buildPhases = (
+				BD57F9975556544658CDCEB2DB9EE828 /* Sources */,
+				A89E989A645C6EB9E9C90AF0681D9D27 /* Frameworks */,
+				F8F71220143143B0958B10F638211825 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLoader;
+			productName = SwiftLoader;
+			productReference = 0F1A620CD10A581CAD0A9DD838466AA3 /* SwiftLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7031ED9D7E985343BFF4CFFEA25D2EB0 /* ElasticTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FA97292C8522C3EE2C8019BBF432CF /* Build configuration list for PBXNativeTarget "ElasticTransition" */;
+			buildPhases = (
+				E526CFC74D7813876A94F359E791A5EB /* Sources */,
+				84954CE654885ED9F50A2F7493ECD775 /* Frameworks */,
+				58BC9A1798F8284B6082CD61B19E7D55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BB40503F2399BCCEB64BDA6653FD8F /* PBXTargetDependency */,
+			);
+			name = ElasticTransition;
+			productName = ElasticTransition;
+			productReference = C8DB834E5F7606EC17439C8DE2DFAEC9 /* ElasticTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F9AF76A5CA9A7EDD4EB7FD1B647D76F /* Pods-WeatherInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C84BBE77B28D5D7698FEBA25E3835F /* Build configuration list for PBXNativeTarget "Pods-WeatherInfo" */;
+			buildPhases = (
+				354840398588D71B3DD5A6B84884C490 /* Sources */,
+				D9AD107A7F8035BCD7ABE4EB29712783 /* Frameworks */,
+				8DA4987E3F2325F965C057996C902D46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01985DC6CEEFEF05EE7B69CF49807719 /* PBXTargetDependency */,
+				5D19A191F2F333F0BE36878FDF60FE8E /* PBXTargetDependency */,
+				2CDC41C3775F08E00B3DC94388AA62ED /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherInfo";
+			productName = "Pods-WeatherInfo";
+			productReference = 041D474A540A5BAAC66B71F5876F1A70 /* Pods_WeatherInfo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0D5264177E0F0611895CABBD7D119E00 = {
+						LastSwiftMigration = 0830;
+					};
+					62A383896C09244457C6D099172C9246 = {
+						LastSwiftMigration = 0830;
+					};
+					7031ED9D7E985343BFF4CFFEA25D2EB0 = {
+						LastSwiftMigration = 0830;
+					};
+					7F9AF76A5CA9A7EDD4EB7FD1B647D76F = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A9770F820D331E33EF83C994D72BA8FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7031ED9D7E985343BFF4CFFEA25D2EB0 /* ElasticTransition */,
+				0D5264177E0F0611895CABBD7D119E00 /* MotionAnimation */,
+				7F9AF76A5CA9A7EDD4EB7FD1B647D76F /* Pods-WeatherInfo */,
+				62A383896C09244457C6D099172C9246 /* SwiftLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB73203F56FD81D457ADE8CB9FCB6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88035705FB30FB471E5853E94A1CDD76 /* MotionAnimation-dummy.m in Sources */,
+				5382F24B2D81DB14F69D254658A023A8 /* MotionAnimation.swift in Sources */,
+				271AEA93CBD322CD1626CE21282D6B42 /* MotionAnimationPropertyState.swift in Sources */,
+				F578BFA4E0134052ECAF1A4A44F2B098 /* MotionAnimator.swift in Sources */,
+				82476DDC66831593B02A46490940C20B /* NSObject+MotionAnimation.swift in Sources */,
+				7D0191ACF8660DFEDA3E27F08C6F19B6 /* SpringValueAnimation.swift in Sources */,
+				CFBB279B20AE4756B4D1BD6E2F5A8F37 /* Types.swift in Sources */,
+				10D74F53C3E11A68E6B7789BC4FEAB65 /* ValueAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354840398588D71B3DD5A6B84884C490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8C83B4BC0CE57960C68BFAE9D2B01C /* Pods-WeatherInfo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD57F9975556544658CDCEB2DB9EE828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2647023C6CAF4074359BE214B2C138 /* SwiftLoader-dummy.m in Sources */,
+				4FC82611A0144E2D0DDA3D0BCFBEFC6C /* SwiftLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E526CFC74D7813876A94F359E791A5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD791ADE9014AB004EDEB358DA1555F /* EdgePanTransition.swift in Sources */,
+				2FC7A5383336D207039B3E0AE474873A /* ElasticModalViewController.swift in Sources */,
+				F1A105BFEFF3FC4E1105A08BA7852727 /* ElasticShapeLayer.swift in Sources */,
+				8F831F3741D1CFA56C6635E383097033 /* ElasticTransition-dummy.m in Sources */,
+				BA1A1C247FFB952DAB406BA026715BE1 /* ElasticTransition.swift in Sources */,
+				DB5E506564C6DA91DED626021F074904 /* ElasticTransitionPresentationController.swift in Sources */,
+				077E944FB9D612B2B290A73846C17E84 /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01985DC6CEEFEF05EE7B69CF49807719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ElasticTransition;
+			target = 7031ED9D7E985343BFF4CFFEA25D2EB0 /* ElasticTransition */;
+			targetProxy = CD6CB029C99504BB5EDDDD68BF89A6F9 /* PBXContainerItemProxy */;
+		};
+		2CDC41C3775F08E00B3DC94388AA62ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLoader;
+			target = 62A383896C09244457C6D099172C9246 /* SwiftLoader */;
+			targetProxy = C0757BD7EB4F5FE6F514EEA2C4FB1A89 /* PBXContainerItemProxy */;
+		};
+		5D19A191F2F333F0BE36878FDF60FE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 0D5264177E0F0611895CABBD7D119E00 /* MotionAnimation */;
+			targetProxy = 3AC1F9285C5681C35EE6A2C3E9DEED66 /* PBXContainerItemProxy */;
+		};
+		E4BB40503F2399BCCEB64BDA6653FD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 0D5264177E0F0611895CABBD7D119E00 /* MotionAnimation */;
+			targetProxy = 2CA273CCF1823AC6C1116103E8BE2880 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		049A5554625B3B89370A10F75CFC011B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD5F8371020CCBC37EE3BEAEFEC9307 /* Pods-WeatherInfo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherInfo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherInfo/Pods-WeatherInfo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeatherInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08E998ED08899A865B0CB7C9EC10D2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A31EB3A54B78FB5E427A5E0B47FA8C2 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FF4C4D5B00C03D770005D3899F9F13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1C5AB6542F9A3F8002961D05533FD5 /* SwiftLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLoader/SwiftLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftLoader/SwiftLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20318B13E81F6315969EAE7E72FE7963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417C64335F0AF20955A837B5F4AAF74E /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		311AA682610F8C294B08FE1E99595F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A31EB3A54B78FB5E427A5E0B47FA8C2 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A0D1C80B0BEF687168913EE706F3B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FBF487B17A442075C0D4F05B84962A /* Pods-WeatherInfo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherInfo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherInfo/Pods-WeatherInfo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeatherInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		821BEC71860096D0D33C7DCBF7786BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417C64335F0AF20955A837B5F4AAF74E /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF4C4DF2722C9715AFFD2E6E5640D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1C5AB6542F9A3F8002961D05533FD5 /* SwiftLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLoader/SwiftLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftLoader/SwiftLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08FA97292C8522C3EE2C8019BBF432CF /* Build configuration list for PBXNativeTarget "ElasticTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E998ED08899A865B0CB7C9EC10D2D6 /* Debug */,
+				311AA682610F8C294B08FE1E99595F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C84BBE77B28D5D7698FEBA25E3835F /* Build configuration list for PBXNativeTarget "Pods-WeatherInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A5554625B3B89370A10F75CFC011B /* Debug */,
+				5A0D1C80B0BEF687168913EE706F3B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F15E5C0A58B8D084D0235F6C1B3FBDE /* Build configuration list for PBXNativeTarget "SwiftLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF4C4D5B00C03D770005D3899F9F13A /* Debug */,
+				FFF4C4DF2722C9715AFFD2E6E5640D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D52F8639EF2ABC6503E79517391AA4 /* Build configuration list for PBXNativeTarget "MotionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821BEC71860096D0D33C7DCBF7786BA8 /* Debug */,
+				20318B13E81F6315969EAE7E72FE7963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

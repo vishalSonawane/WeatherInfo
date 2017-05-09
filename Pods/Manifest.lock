@@ -1,0 +1,18 @@
+PODS:
+  - ElasticTransition (3.1.1):
+    - MotionAnimation (~> 0.1.2)
+  - MotionAnimation (0.1.2)
+  - SwiftLoader (0.2.5)
+
+DEPENDENCIES:
+  - ElasticTransition
+  - SwiftLoader
+
+SPEC CHECKSUMS:
+  ElasticTransition: 6c4e4739e32480c864217db912100f3657f6447a
+  MotionAnimation: ff5c8fc2e429d7e10d46ae86819ba9759846c343
+  SwiftLoader: 12d7a6f661f5e9a2c9a72003e7dd6162f4ff0cc4
+
+PODFILE CHECKSUM: 8fc223f9bb129ed923928f461b86e71dd7acbe92
+
+COCOAPODS: 1.0.1
